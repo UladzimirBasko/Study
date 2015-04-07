@@ -1,9 +1,9 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="AvailableActivities.cs" company="VOVANCHO-PC">
+// <copyright file="Activity.cs" company="VOVANCHO-PC">
 //   Infrastructure
 // </copyright>
 // <summary>
-//   Defines the AvailableActivities type.
+//   Defines the Activity type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
@@ -12,9 +12,9 @@ namespace Infrastructure
     using System.Collections.Generic;
 
     /// <summary>
-    /// The AvailableActivities
+    /// The Activity
     /// </summary>
-    public class AvailableActivities
+    public class Activity
     {
         /// <summary>
         /// Gets or sets the id.
@@ -25,35 +25,26 @@ namespace Infrastructure
         public int Id { get; set; }
 
         /// <summary>
+        /// Gets or sets the name.
+        /// </summary>
+        /// <value>
+        /// The name.
+        /// </value>
+        public string Name { get; set; }
+
+        /// <summary>
+        /// Gets or sets the description.
+        /// </summary>
+        /// <value>
+        /// The description.
+        /// </value>
+        public string Description { get; set; }
+
+        /// <summary>
         /// Gets or sets the described activities.
         /// </summary>
         /// <value>
-        /// The described activities.
         /// </value>
-        public Activities DescribedActivities { get; set; }
-
-        /// <summary>
-        /// Gets or sets the organizer.
-        /// </summary>
-        /// <value>
-        /// The organizer.
-        /// </value>
-        public Organization Organizer { get; set; }
-
-        /// <summary>
-        /// Gets or sets the connected waybill.
-        /// </summary>
-        /// <value>
-        /// The connected waybill.
-        /// </value>
-        public Waybill ConnectedWaybill { get; set; }
-
-        /// <summary>
-        /// Gets or sets the available venues.
-        /// </summary>
-        /// <value>
-        /// The available venues.
-        /// </value>
-        public List<Venue> AvailableVenues { get; set; }
+        public AvailableActivity DescribedActivities { get; set; }
     }
 }
