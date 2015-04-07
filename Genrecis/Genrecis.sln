@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genrecis", "Genrecis\Genrecis.csproj", "{F49D567A-BC84-4F4A-834F-0FE1183A816E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenrecisTests", "GenrecisTests\GenrecisTests.csproj", "{492E9222-FDD8-4F38-A281-EDE328648FCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E766F834-985E-4974-B5D9-4DA81B4A5798}"
+	ProjectSection(SolutionItems) = preProject
+		Genrecis.vsmdi = Genrecis.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Genrecis.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F49D567A-BC84-4F4A-834F-0FE1183A816E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49D567A-BC84-4F4A-834F-0FE1183A816E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49D567A-BC84-4F4A-834F-0FE1183A816E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49D567A-BC84-4F4A-834F-0FE1183A816E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492E9222-FDD8-4F38-A281-EDE328648FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492E9222-FDD8-4F38-A281-EDE328648FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492E9222-FDD8-4F38-A281-EDE328648FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492E9222-FDD8-4F38-A281-EDE328648FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
